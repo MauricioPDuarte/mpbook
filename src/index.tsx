@@ -1,13 +1,15 @@
-import React from 'react';
-import { SafeAreaView, Text, StatusBar } from 'react-native';
+import 'react-native-gesture-handler';
 
-const App: React.FC = () => (
-  <>
-    <StatusBar barStyle="dark-content" />
-    <SafeAreaView>
-      <Text>Hello World</Text>
-    </SafeAreaView>
-  </>
-);
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import Routes from './routes';
+
+const App: React.FC = () => {
+  return (
+    <NavigationContainer>
+      <Routes />
+    </NavigationContainer>
+  );
+};
 
 export default App;

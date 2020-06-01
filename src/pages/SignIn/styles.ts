@@ -4,9 +4,10 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
+  padding: 0 40px;
 `;
 
-export const Title = styled.Text`
-  font-size: 30px;
-  font-family: 'Roboto-Bold';
+export const Text = styled.Text`
+  font-size: 16px;
+  font-family: 'Roboto-Regular';
 `;
